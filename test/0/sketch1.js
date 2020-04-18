@@ -1,9 +1,12 @@
 let amount = 40;
 let balls = [];
+var canvas;
 
 function setup()
 {  
-  createCanvas(windowWidth, 400);
+  canvas = createCanvas(windowWidth, 400);
+  canvas.position(0,0);
+  
   clear(); 
   createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttackkkk');
   
