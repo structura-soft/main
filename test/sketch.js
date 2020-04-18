@@ -6,7 +6,7 @@ function setup()
 {  
   canvas = createCanvas(windowWidth,windowHeight);
   canvas.position(0,0);
-  clear();  
+  //clear();  
   createButton("FoodAttack");
   
   for(let i = 0; i < amount; i++)
