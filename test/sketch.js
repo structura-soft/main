@@ -1,13 +1,15 @@
 let amount = 40;
 let balls = [];
 var canvas;
+var button;
 
 function setup()
 {  
   canvas = createCanvas(windowWidth,windowHeight);
   canvas.position(0,0);
   //clear();  
-  createButton("FoodAttack");
+  button = createButton("FoodAttack");
+  button.position(0,400);
   
   for(let i = 0; i < amount; i++)
   {
