@@ -10,6 +10,7 @@ function setup()
   //clear();  
   button = createButton("FoodAttack");
   button.position(0,400);
+  button.size(600,600);
   
   for(let i = 0; i < amount; i++)
   {
