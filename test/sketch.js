@@ -7,7 +7,7 @@ function setup()
   canvas = createCanvas(710, 400);
   canvas.position(0,0);
   clear();  
-
+  createButton("FoodAttack");
   
   for(let i = 0; i < amount; i++)
   {
