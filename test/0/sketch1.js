@@ -5,7 +5,7 @@ function setup()
 {  
   createCanvas(windowWidth, 400);
   clear(); 
-  createButton("holaaaa");
+  createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttack');
   
   for(let i = 0; i < amount; i++)
   {
