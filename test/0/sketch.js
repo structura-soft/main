@@ -4,8 +4,8 @@ let balls = [];
 function setup()
 {  
   createCanvas(710, 400);
-  //background(0); 
-  clear();
+  background(150); 
+  //clear();
   createButton("hola1");
   
   createButton("holaaa");
