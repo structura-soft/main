@@ -10,6 +10,8 @@ function setup()
   clear(); 
   createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttackk');
   
+  colorMode(HSB);
+  
   for(let i = 0; i < amount; i++)
   {
     let x = random(width);
@@ -40,11 +42,11 @@ constructor(x,y,radios,speed,ids)
     
     noStroke();
     
-    this.r = random(100,255);
+    this.r = random(100);
     print(this.r);
-    this.g = random(100,255);
-    this.b = random(100,255);
-    fill(this.r,this.g,this.b,20);
+    this.g = random(20,50);
+    this.b = random(50,100);
+    fill(this.r,this.g,this.b,100);
     
     circle(x, y, this.radio);
     
