@@ -21,6 +21,7 @@ function setup()
 
 function draw()
 {
+  clear();
   for(let i = 0; i < amount; i++)
   {
     balls[i].move();
