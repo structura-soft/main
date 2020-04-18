@@ -8,6 +8,8 @@ function setup()
   clear();
   createButton("hola1");
   
+  createButton("holaaa");
+  
   for(let i = 0; i < amount; i++)
   {
     let x = random(width);
