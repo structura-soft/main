@@ -4,7 +4,7 @@ let balls = [];
 function setup()
 {  
   createCanvas(710, 400);
-  background(0);  
+  clear();  
 
   
   for(let i = 0; i < amount; i++)
