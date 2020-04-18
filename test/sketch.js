@@ -5,7 +5,7 @@ var button;
 
 function setup()
 {  
-  canvas = createCanvas(windowWidth,windowHeight);
+  canvas = createCanvas(windowWidth,300);
   canvas.position(0,0);
   //clear();  
   button = createButton("FoodAttack");
