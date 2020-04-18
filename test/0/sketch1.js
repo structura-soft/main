@@ -8,7 +8,7 @@ function setup()
   canvas.position(0,0);
   
   clear(); 
-  createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttack');
+  createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttackk');
   
   for(let i = 0; i < amount; i++)
   {
