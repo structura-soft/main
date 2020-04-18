@@ -1,9 +1,11 @@
 let amount = 40;
 let balls = [];
+var canvas;
 
 function setup()
 {  
-  createCanvas(710, 400);
+  canvas = createCanvas(710, 400);
+  canvas.position(0,0);
   clear();  
 
   
