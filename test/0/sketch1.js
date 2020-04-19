@@ -78,7 +78,7 @@ constructor(x,y,radios,speed,ids)
     if(this.posY > height) this.posY = height;
     if(this.posY < 0) this.posY = 0;
     
-    fill(this.r,this.g,this.b,10);
+    fill(this.r,this.g,this.b,0.5);
     circle(this.posX, this.posY,this.radio);    
   }
 
