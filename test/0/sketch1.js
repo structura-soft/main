@@ -42,7 +42,7 @@ constructor(x,y,radios,speed,ids)
     
     noStroke();
     
-    this.r = random(100,200);
+    this.r = random(160,230);
     print(this.r);
     this.g = random(20,50);
     this.b = random(50,100);
