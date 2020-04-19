@@ -4,7 +4,7 @@ var canvas;
 
 function setup()
 {  
-  canvas = createCanvas(windowWidth*0.95, windowHeight*2);
+  canvas = createCanvas(windowWidth*0.98, windowHeight*2);
   canvas.position(0,0);
   
   clear(); 
