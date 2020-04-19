@@ -38,12 +38,10 @@ constructor(x,y,radios,speed,ids)
     this.radio = radios;
     this.speedo = speed;
     this.id = ids;
-    //  radio = random(radio, radio * 1.5);
     
     noStroke();
     
     this.r = random(160,230);
-    print(this.r);
     this.g = random(15,42);
     this.b = random(65,100);
     fill(this.r,this.g,this.b,0.2);
@@ -78,7 +76,7 @@ constructor(x,y,radios,speed,ids)
     if(this.posY > height) this.posY = height;
     if(this.posY < 0) this.posY = 0;
     
-    fill(this.r,this.g,this.b,0.5);
+    fill(this.r,this.g,this.b,0.35);
     circle(this.posX, this.posY,this.radio);    
   }
 
