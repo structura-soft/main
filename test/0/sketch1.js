@@ -1,6 +1,7 @@
 let amount = 40;
 let balls = [];
 var canvas;
+ver foodButton;
 
 function setup()
 {  
@@ -8,7 +9,8 @@ function setup()
   canvas.position(0,0);
   
   clear(); 
-  createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttack');
+  foodButton = createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttack');
+  foodButton.color("#000000");
   
   colorMode(HSB);
   
