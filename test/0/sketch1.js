@@ -44,8 +44,8 @@ constructor(x,y,radios,speed,ids)
     
     this.r = random(160,230);
     print(this.r);
-    this.g = random(20,50);
-    this.b = random(50,100);
+    this.g = random(15,42);
+    this.b = random(65,100);
     fill(this.r,this.g,this.b,0.2);
     
     circle(x, y, this.radio);
