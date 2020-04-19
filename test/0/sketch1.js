@@ -4,7 +4,7 @@ var canvas;
 
 function setup()
 {  
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight*2);
   canvas.position(0,0);
   
   clear(); 
@@ -16,7 +16,7 @@ function setup()
   {
     let x = random(width);
     let y = random(height);
-    balls[i] = new Ball(x,y,20,3,i);
+    balls[i] = new Ball(x,y,30,3,i);
     
   }
 }
@@ -76,7 +76,7 @@ constructor(x,y,radios,speed,ids)
     if(this.posY > height) this.posY = 0;
     if(this.posY < 0) this.posY = 0;
     
-    fill(this.r,this.g,this.b,0.45);
+    fill(this.r,this.g,this.b,0.3);
     circle(this.posX, this.posY,this.radio);    
   }
 
