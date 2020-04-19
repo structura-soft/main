@@ -42,8 +42,8 @@ constructor(x,y,radios,speed,ids)
     noStroke();
     
     this.r = random(160,230);
-    this.g = random(15,42);
-    this.b = random(65,100);
+    this.g = random(30,50);
+    this.b = random(80,100);
     fill(this.r,this.g,this.b,0.2);
     
     circle(x, y, this.radio);
@@ -53,7 +53,7 @@ constructor(x,y,radios,speed,ids)
   
   move()
   {  
-    let dir = random(0,4);
+    let dir = random(0,5);
     if(dir <= 1)
     {
       this.posX += this.speedo;
@@ -73,10 +73,10 @@ constructor(x,y,radios,speed,ids)
     
     if(this.posX > width) this.posX = width;
     if(this.posX < 0) this.posX = 0;
-    if(this.posY > height) this.posY = height;
+    if(this.posY > height) this.posY = 0;
     if(this.posY < 0) this.posY = 0;
     
-    fill(this.r,this.g,this.b,0.35);
+    fill(this.r,this.g,this.b,0.45);
     circle(this.posX, this.posY,this.radio);    
   }
 
