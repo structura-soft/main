@@ -64,11 +64,11 @@ constructor(x,y,radios,speed,ids)
     }
     else if(dir > 2 && dir <= 3)
     {
-      this.posY += this.speedo;
+      this.posY -= this.speedo;
     }
     else if(dir > 3)
     {
-      this.posY -= this.speedo;
+      this.posY += this.speedo;
     }
     
     if(this.posX > width) this.posX = width;
