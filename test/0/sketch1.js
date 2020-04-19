@@ -10,7 +10,6 @@ function setup()
   
   clear(); 
   foodButton = createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttack');
-  foodButton.color("#000000");
   
   colorMode(HSB);
   
