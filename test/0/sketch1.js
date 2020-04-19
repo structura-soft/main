@@ -5,7 +5,7 @@ var foodLink;
 
 function setup()
 {  
-  canvas = createCanvas(windowWidth, windowHeight*2);
+  canvas = createCanvas(windowWidth*0.95, windowHeight*2);
   canvas.position(0,0);
   
   clear(); 
