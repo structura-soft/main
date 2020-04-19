@@ -41,9 +41,9 @@ constructor(x,y,radios,speed,ids)
     
     noStroke();
     
-    this.r = random(160,230);
+    this.r = random(160,220);
     this.g = random(30,50);
-    this.b = random(80,100);
+    this.b = random(85,100);
     fill(this.r,this.g,this.b,0.2);
     
     circle(x, y, this.radio);
