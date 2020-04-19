@@ -42,11 +42,11 @@ constructor(x,y,radios,speed,ids)
     
     noStroke();
     
-    this.r = random(200,300);
+    this.r = random(100,200);
     print(this.r);
     this.g = random(20,50);
     this.b = random(50,100);
-    fill(this.r,this.g,this.b,60);
+    fill(this.r,this.g,this.b,0.6);
     
     circle(x, y, this.radio);
     
