@@ -1,7 +1,7 @@
 let amount = 40;
 let balls = [];
 var canvas;
-ver foodButton;
+var foodLink;
 
 function setup()
 {  
