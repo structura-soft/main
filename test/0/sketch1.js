@@ -1,13 +1,16 @@
 let amount = 40;
 let balls = [];
 var canvas;
+var hyperLink;
 
 function setup()
 {  
-  canvas = createCanvas(windowWidth*0.98, windowHeight*2);
-  canvas.position(0,0);
-  createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttackk');
   
+  hyperLink = createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttackk');
+  hyperLink.position(300,300);
+  canvas = createCanvas(windowWidth*0.98, windowHeight);
+  canvas.position(0,0);
+  canvas.style('pointer-events','none');
   clear(); 
   
   
