@@ -6,9 +6,10 @@ function setup()
 {  
   canvas = createCanvas(windowWidth*0.98, windowHeight*2);
   canvas.position(0,0);
+  createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttackk');
   
   clear(); 
-  createA('https://play.google.com/store/apps/details?id=com.structura.FoodAttack', 'FoodAttack');
+  
   
   colorMode(HSB);
   
